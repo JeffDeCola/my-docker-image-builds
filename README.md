@@ -10,7 +10,13 @@ I use for various projects._
 The `my-docker-image-builds`
 [GitHub Webpage](https://jeffdecola.github.io/my-docker-image-builds/).
 
-## RUN AND CHECK
+## BUILDS
+
+* `go-packer`
+  ([docker Image](https://hub.docker.com/r/jeffdecola/go-packer)) -
+  Contains debian, go and packer.
+
+## RUN CONTAINER & GET BASH SHELL
 
 To run a docker container.
 
@@ -21,11 +27,5 @@ echo "docker run --name go-packer jeffdecola/go-packer"
 To  get a prompt inside a running container,
 
 ```bash
-
+tbd
 ```
-
-## BUILDS
-
-* `go-packer`
-  ([docker Image](https://hub.docker.com/r/jeffdecola/go-packer)) -
-  Contains ubuntu, go and packer.
