@@ -24,5 +24,10 @@ echo "Assuming you are logged in, lets push your built docker image to DockerHub
 docker push jeffdecola/go-packer
 echo
 
+echo "NEXT STEPS"
+echo "Check https://hub.docker.com/r/jeffdecola/go-packer"
+echo "docker run --name go-packer jeffdecola/go-packer"
+echo " "
+
 echo "build-push.sh -concoure -debug (END)"
 echo " "
