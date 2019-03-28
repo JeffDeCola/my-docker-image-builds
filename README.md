@@ -10,6 +10,20 @@ I use for various projects._
 The `my-docker-image-builds`
 [GitHub Webpage](https://jeffdecola.github.io/my-docker-image-builds/).
 
+## RUN AND CHECK
+
+To run a docker container.
+
+```bash
+echo "docker run --name go-packer jeffdecola/go-packer"
+```
+
+To  get a prompt inside a running container,
+
+```bash
+
+```
+
 ## BUILDS
 
 * `go-packer`
