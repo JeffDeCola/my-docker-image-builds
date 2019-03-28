@@ -1,5 +1,6 @@
 # my-docker-images-build go-packer
 
+# DEBIAN AND GOLOANG
 FROM golang:1.10.3
 
 LABEL Jeff DeCola (https://github.com/JeffDeCola/my-docker-image-builds)
@@ -15,5 +16,4 @@ RUN apt-get -y install unzip
 RUN wget -q https://releases.hashicorp.com/packer/1.3.5/packer_1.3.5_linux_amd64.zip
 RUN unzip packer_1.3.5_linux_amd64.zip
 RUN rm packer_1.3.5_linux_amd64.zip
-RUN mv packer /usr/local/
-RUN echo 'export PATH="$PATH:/usr/local/packer"' >> /root/.bashrc
+RUN mv packer /usr/local/bin
