@@ -2,7 +2,7 @@
 # BUILDS
 
 * `go-packer`
-  ([docker Image](https://hub.docker.com/r/jeffdecola/go-packer)) -
+  [docker Image](https://hub.docker.com/r/jeffdecola/go-packer) -
   Contains debian, go and packer.
 
 ## RUN CONTAINER & GET BASH SHELL
