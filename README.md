@@ -21,11 +21,11 @@ The `my-docker-image-builds`
 To run a docker container.
 
 ```bash
-echo "docker run --name go-packer jeffdecola/go-packer"
+docker run --name go-packer -dit jeffdecola/go-packer
 ```
 
-To  get a prompt inside a running container,
+To get a bash shell inside a running container,
 
 ```bash
-tbd
+docker exec -i -t go-packer /bin/bash
 ```
