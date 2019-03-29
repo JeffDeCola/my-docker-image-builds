@@ -17,16 +17,17 @@ else
 fi
 
 echo "Build your docker image from binary /bin/hello-go using /build-push/Dockerfile"
-docker build -t jeffdecola/go-packer .
+docker build -t jeffdecola/go-gcloud-packer .
 echo " "
 
 echo "Assuming you are logged in, lets push your built docker image to DockerHub"
-docker push jeffdecola/go-packer
+docker push jeffdecola/go-gcloud-packer
 echo " "
 
-echo "Check https://hub.docker.com/r/jeffdecola/go-packer"
-echo "docker run --name go-packer -dit jeffdecola/go-packer"
-echo "docker exec -i -t go-packer /bin/bash"
+echo "Check https://hub.docker.com/r/jeffdecola/go-gcloud-packer"
+echo " "
+echo "docker run --name go-gcloud-packer -dit jeffdecola/go-gcloud-packer"
+echo "docker exec -i -t go-gcloud-packer /bin/bash"
 echo " "
 
 echo "build-push.sh -concoure -debug (END)"
