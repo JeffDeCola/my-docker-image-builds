@@ -42,3 +42,10 @@ RUN export CLOUD_SDK_REPO="cloud-sdk-$(lsb_release -c -s)" && \
     apt-get -y update && \
     apt-get -y install google-cloud-sdk
 RUN gcloud version
+
+# INSTALL GCLOUD COMPONENTS (-q quiet mode)
+RUN gcloud -q components update
+# INSTALL GOOGLE APP ENGINE GO EXTENSIONS
+RUN gcloud -q components install app-engine-go
+RUN gcloud version
+RUN gcloud components list

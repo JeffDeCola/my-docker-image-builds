@@ -14,7 +14,7 @@ The `my-docker-image-builds`
 
 * `go-gcloud-packer`
   [docker Image](https://hub.docker.com/r/jeffdecola/go-gcloud-packer) -
-  Contains debian, go, gcloud sdk and packer.
+  Contains debian, go, gcloud sdk (with apps go extension) and packer.
 
 ## RUN CONTAINER & GET BASH SHELL
 
