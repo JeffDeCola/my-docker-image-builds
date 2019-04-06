@@ -13,6 +13,10 @@ The `my-docker-image-builds`
 ## BUILDS
 
 * `go-gcloud-packer`
+<<<<<<< HEAD
+  [docker Image](https://hub.docker.com/r/jeffdecola/go-gcloud-packer) -
+  Contains debian, go1.11, gcloud sdk (with app go extension) and packer.
+=======
   [docker Image](https://hub.docker.com/r/jeffdecola/go-gcloud-packer) with
   at least these versions,
   * ubuntu 18.04
@@ -21,6 +25,7 @@ The `my-docker-image-builds`
   * gcloud SDK 240.0.0
     * Installed google app go extension
   * packer 1.3.5
+>>>>>>> fe59c95f2bf4bb0ed0ddfbf7f90423a2421257a7
 
 ## RUN CONTAINER & GET BASH SHELL
 
