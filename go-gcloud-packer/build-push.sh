@@ -30,5 +30,5 @@ echo "docker run --name go-gcloud-packer -dit jeffdecola/go-gcloud-packer"
 echo "docker exec -i -t go-gcloud-packer /bin/bash"
 echo " "
 
-echo "build-push.sh -concoure -debug (END)"
+echo "build-push.sh (END)"
 echo " "
