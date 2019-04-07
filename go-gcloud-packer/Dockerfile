@@ -17,6 +17,13 @@ RUN apt-get -y install curl
 RUN apt-get -y install gnupg2
 RUN apt-get -y install git
 
+# UPDATE AND UPGRADE
+RUN apt-get -y update
+RUN apt-get -y upgrade
+
+# INSTALL PACKAGES
+RUN apt-get -y install gcc
+
 # INSTALL GOLANG TO /usr/local
 RUN wget -q https://storage.googleapis.com/golang/go1.11.linux-amd64.tar.gz
 RUN tar -xf go1.11.linux-amd64.tar.gz
