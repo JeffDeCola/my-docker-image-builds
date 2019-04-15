@@ -23,7 +23,7 @@ The `my-docker-image-builds`
   * packer 1.3.5
 
 * `gcloud-kubectl`
-  [docker Image](https://hub.docker.com/r/jeffdecola/go-gcloud-kubectl)
+  [docker Image](https://hub.docker.com/r/jeffdecola/gcloud-kubectl)
   with at least these versions,
   * ubuntu 18.04
   * gcloud SDK 241.0.0
