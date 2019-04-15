@@ -19,8 +19,16 @@ The `my-docker-image-builds`
   * go 1.11
     * Installed package "google.golang.org/appengine"
   * gcloud SDK 240.0.0
-    * Installed google app go extension
+    * Installed google app engine go extension component
   * packer 1.3.5
+
+* `gcloud-kubectl`
+  [docker Image](https://hub.docker.com/r/jeffdecola/go-gcloud-kubectl)
+  with at least these versions,
+  * ubuntu 18.04
+  * gcloud SDK 241.0.0
+    * Installed kubectl component
+  * kubectl 1.14
 
 ## RUN CONTAINER & GET BASH SHELL
 
