@@ -3,7 +3,7 @@
 # PULL UBUNTU BASE IMAGE
 FROM ubuntu:18.04
 
-LABEL Jeff DeCola (https://github.com/JeffDeCola/my-docker-image-builds)
+LABEL maintainer="Jeff DeCola https://github.com/my-docker-image-builds"
 
 # UPDATE AND UPGRADE
 RUN apt-get -y update
