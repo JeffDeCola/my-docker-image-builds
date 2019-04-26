@@ -7,7 +7,7 @@
 `my-docker-image-builds` _is a place to build and push my docker images
 I use for various projects._
 
-The `my-docker-image-builds`
+`my-docker-image-builds`
 [GitHub Webpage](https://jeffdecola.github.io/my-docker-image-builds/).
 
 ## DOCKER BUILDS LIST
