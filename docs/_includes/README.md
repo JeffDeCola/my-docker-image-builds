@@ -1,9 +1,29 @@
 
-# BUILDS
+# DOCKER BUILDS LIST
+
+* `gcloud-kubectl`
+  The
+  [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/gcloud-kubectl/Dockerfile)
+  creates the
+  [docker Image](https://hub.docker.com/r/jeffdecola/gcloud-kubectl)
+  with at least these versions,
+  * ubuntu 18.04
+  * gcloud SDK 241.0.0
+    * Installed kubectl component
+  * kubectl 1.14
 
 * `go-gcloud-packer`
-  [docker Image](https://hub.docker.com/r/jeffdecola/go-gcloud-packer) -
-  Contains debian, go, gcloud sdk and packer.
+  The
+  [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/go-gcloud-packer/Dockerfile)
+  creates the
+  [docker Image](https://hub.docker.com/r/jeffdecola/go-gcloud-packer)
+  with at least these versions,
+  * ubuntu 18.04
+  * go 1.11
+    * Installed package "google.golang.org/appengine"
+  * gcloud SDK 240.0.0
+    * Installed google app engine go extension component
+  * packer 1.3.5
 
 ## RUN CONTAINER & GET BASH SHELL
 
