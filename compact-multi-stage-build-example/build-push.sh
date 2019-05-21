@@ -17,17 +17,17 @@ else
 fi
 
 echo "Build your docker image from binary /bin/hello-go using /build-push/Dockerfile"
-docker build -t jeffdecola/gcloud-kubectl .
+docker build -t jeffdecola/compact-multi-stage-build-example .
 echo " "
 
 echo "Assuming you are logged in, lets push your built docker image to DockerHub"
-docker push jeffdecola/gcloud-kubectl
+docker push jeffdecola/compact-multi-stage-build-example
 echo " "
 
-echo "Check https://hub.docker.com/r/jeffdecola/gcloud-kubectl"
+echo "Check https://hub.docker.com/r/jeffdecola/compact-multi-stage-build-example"
 echo " "
-echo "docker run --name gcloud-kubectl -dit jeffdecola/gcloud-kubectl"
-echo "docker exec -i -t gcloud-kubectl /bin/bash"
+echo "docker run --name compact-multi-stage-build-example -dit jeffdecola/compact-multi-stage-build-example"
+echo "docker exec -i -t compact-multi-stage-build-example /bin/bash"
 echo " "
 
 echo "build-push.sh (END)"
