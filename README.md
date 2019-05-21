@@ -14,8 +14,17 @@ My
 
 ## DOCKER BUILDS LIST
 
+* `compact-multi-stage-build-example`
+  (??MB) The
+  [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/compact-multi-stage-build-example/Dockerfile)
+  creates the
+  [docker Image](https://hub.docker.com/r/jeffdecola/compact-multi-stage-build-example)
+  with at least these versions,
+  * alpine 3.9.4.
+  * Runs a simple hello program compiled using go.
+
 * `gcloud-kubectl`
-  The
+  (1.92GB) The
   [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/gcloud-kubectl/Dockerfile)
   creates the
   [docker Image](https://hub.docker.com/r/jeffdecola/gcloud-kubectl)
@@ -26,7 +35,7 @@ My
   * kubectl 1.14
 
 * `go-gcloud-packer`
-  The
+  (542MB) The
   [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/go-gcloud-packer/Dockerfile)
   creates the
   [docker Image](https://hub.docker.com/r/jeffdecola/go-gcloud-packer)

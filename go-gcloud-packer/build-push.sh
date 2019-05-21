@@ -1,5 +1,5 @@
 #!/bin/sh
-# hello-go-deploy-gce build-push.sh
+# build-push.sh
 
 echo " "
 
