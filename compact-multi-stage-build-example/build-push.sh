@@ -16,7 +16,7 @@ else
     echo " "
 fi
 
-echo "Build your docker image from binary /bin/hello-go using /build-push/Dockerfile"
+echo "Build your docker image using /build-push/Dockerfile"
 docker build -t jeffdecola/compact-multi-stage-build-example .
 echo " "
 
@@ -28,6 +28,7 @@ echo "Check https://hub.docker.com/r/jeffdecola/compact-multi-stage-build-exampl
 echo " "
 echo "docker run --name compact-multi-stage-build-example -dit jeffdecola/compact-multi-stage-build-example"
 echo "docker exec -i -t compact-multi-stage-build-example /bin/bash"
+echo "docker logs -f compact-multi-stage-build-example"
 echo " "
 
 echo "build-push.sh (END)"
