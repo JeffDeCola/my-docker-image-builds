@@ -15,16 +15,16 @@ My
 ## DOCKER BUILDS LIST
 
 * `compact-multi-stage-build-example`
-  (??MB) The
+  (12.9 MB) The
   [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/compact-multi-stage-build-example/Dockerfile)
   creates the
   [docker Image](https://hub.docker.com/r/jeffdecola/compact-multi-stage-build-example)
   with at least these versions,
-  * alpine 3.9.4.
+  * alpine 3.9.2
   * Runs a simple hello program compiled using go.
 
 * `gcloud-kubectl`
-  (1.92GB) The
+  (1.92 GB) The
   [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/gcloud-kubectl/Dockerfile)
   creates the
   [docker Image](https://hub.docker.com/r/jeffdecola/gcloud-kubectl)
@@ -35,7 +35,7 @@ My
   * kubectl 1.14
 
 * `go-gcloud-packer`
-  (542MB) The
+  (542 MB) The
   [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/go-gcloud-packer/Dockerfile)
   creates the
   [docker Image](https://hub.docker.com/r/jeffdecola/go-gcloud-packer)
@@ -59,6 +59,12 @@ To get a bash shell inside a running container,
 
 ```bash
 docker exec -i -t go-gcloud-packer /bin/bash
+```
+
+To see the stdout,
+
+```bash
+docker logs -f go-gcloud-packer
 ```
 
 ## UPDATE GITHUB WEBPAGE USING CONCOURSE (OPTIONAL)

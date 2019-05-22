@@ -23,7 +23,7 @@ RUN ls -lat $GOPATH/my-code
 RUN go get -d -v
 
 # Build the binary.
-RUN go build -o /go/bin/hello.go
+RUN go build -o /go/bin/hello hello.go
 
 ###############################
 # STAGE 2 build a smaller image
