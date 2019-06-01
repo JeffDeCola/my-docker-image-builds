@@ -7,6 +7,14 @@
 `my-docker-image-builds` _is a place to build and push my docker images
 I use for various projects._
 
+tl;dr,
+
+```bash
+docker run --name compact-multi-stage-build-example -dit jeffdecola/compact-multi-stage-build-example
+docker exec -i -t compact-multi-stage-build-example /bin/bash
+docker logs -f compact-multi-stage-build-example
+```
+
 My
 [docker cheat sheet](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/operations-tools/orchestration/builds-deployment-containers/docker-cheat-sheet).
 
