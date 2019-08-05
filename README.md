@@ -33,7 +33,7 @@ My
 
 ### compact-multi-stage-build-example
 
-* (12.9 MB) The
+(12.9 MB) The
 [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/compact-multi-stage-build-example/Dockerfile)
 creates the
 [docker Image](https://hub.docker.com/r/jeffdecola/compact-multi-stage-build-example)
