@@ -17,12 +17,9 @@ docker logs -f compact-multi-stage-build-example
 
 Table of Contents,
 
-* [DOCKER BUILDS LIST](https://github.com/JeffDeCola/my-docker-image-builds#docker-builds-list)
-  * [compact-multi-stage-build-example](https://github.com/JeffDeCola/my-docker-image-builds#compact-multi-stage-build-example)
-  * [gcloud-kubectl](https://github.com/JeffDeCola/my-docker-image-builds#gcloud-kubectl)
-  * [go-gcloud-packer](https://github.com/JeffDeCola/my-docker-image-builds#go-gcloud-packer)
-* [RUN CONTAINER & GET BASH SHELL](https://github.com/JeffDeCola/my-docker-image-builds#run-container--get-bash-shell)
-* [UPDATE GITHUB WEBPAGE USING CONCOURSE (OPTIONAL)](https://github.com/JeffDeCola/my-docker-image-builds#update-github-webpage-using-concourse-optional)
+* [compact-multi-stage-build-example](https://github.com/JeffDeCola/my-docker-image-builds#compact-multi-stage-build-example)
+* [gcloud-kubectl](https://github.com/JeffDeCola/my-docker-image-builds#gcloud-kubectl)
+* [go-gcloud-packer](https://github.com/JeffDeCola/my-docker-image-builds#go-gcloud-packer)
 
 My
 [docker cheat sheet](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/operations-tools/orchestration/builds-deployment-containers/docker-cheat-sheet).
