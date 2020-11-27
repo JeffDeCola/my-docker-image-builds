@@ -4,8 +4,7 @@
 [![Issue Count](https://codeclimate.com/github/JeffDeCola/my-docker-image-builds/badges/issue_count.svg)](https://codeclimate.com/github/JeffDeCola/my-docker-image-builds/issues)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://jeffdecola.mit-license.org)
 
-`my-docker-image-builds` _is a place to build and push my docker images
-I use for various projects._
+_A place to build and push my docker images I use for various projects._
 
 tl;dr,
 
@@ -21,10 +20,11 @@ Table of Contents,
 * [gcloud-kubectl](https://github.com/JeffDeCola/my-docker-image-builds#gcloud-kubectl)
 * [go-gcloud-packer](https://github.com/JeffDeCola/my-docker-image-builds#go-gcloud-packer)
 
-My
-[docker cheat sheet](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/operations-tools/orchestration/builds-deployment-containers/docker-cheat-sheet).
+Documentation and reference,
 
-[GitHub Webpage](https://jeffdecola.github.io/my-docker-image-builds/).
+* [docker-cheat-sheet](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/operations-tools/orchestration/builds-deployment-containers/docker-cheat-sheet)
+
+[GitHub Webpage](https://jeffdecola.github.io/my-docker-image-builds/)
 
 ## DOCKER BUILDS LIST
 
