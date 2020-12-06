@@ -22,7 +22,7 @@ RUN apt-get -y update
 RUN apt-get -y upgrade
 
 # INSTALL PACKAGES
-RUN apt-get -y install gcc-8
+RUN apt-get -y install build-essential
 
 # INSTALL GOLANG TO /usr/local
 RUN wget -q https://storage.googleapis.com/golang/go1.15.3.linux-amd64.tar.gz
