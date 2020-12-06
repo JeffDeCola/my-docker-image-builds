@@ -64,7 +64,7 @@ _built with
   creates this
   [docker Image](https://hub.docker.com/r/jeffdecola/go-gcloud-packer)
 * This docker image has at least these versions
-  * ubuntu 20.04
+  * ubuntu 18.04
   * go 1.15.3
     * Installed package "google.golang.org/appengine"
   * gcloud SDK ???????????????????????????.0.0
