@@ -1,7 +1,7 @@
 # my-docker-images-build go-gcloud-packer
 
 # PULL UBUNTU BASE IMAGE
-FROM ubuntu:20.04
+FROM ubuntu:18.04
 
 LABEL maintainer="Jeff DeCola https://github.com/my-docker-image-builds"
 
