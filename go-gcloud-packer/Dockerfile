@@ -1,7 +1,7 @@
 # my-docker-images-build go-gcloud-packer
 
 # PULL UBUNTU BASE IMAGE
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 LABEL maintainer="Jeff DeCola https://github.com/my-docker-image-builds"
 
@@ -25,8 +25,8 @@ RUN apt-get -y upgrade
 RUN apt-get -y install gcc
 
 # INSTALL GOLANG TO /usr/local
-RUN wget -q https://storage.googleapis.com/golang/go1.11.linux-amd64.tar.gz
-RUN tar -xf go1.11.linux-amd64.tar.gz
+RUN wget -q https://storage.googleapis.com/golang/go1.15.3.linux-amd64.tar.gz
+RUN tar -xf go1.15.3.linux-amd64.tar.gz
 RUN mv go /usr/local
 ENV GOPATH="/root"
 ENV GOROOT="/usr/local/go"
@@ -43,9 +43,9 @@ RUN go version
 RUN go get google.golang.org/appengine
 
 # INSTALL PACKER TO /usr/local/bin
-RUN wget -q https://releases.hashicorp.com/packer/1.3.5/packer_1.3.5_linux_amd64.zip
-RUN unzip packer_1.3.5_linux_amd64.zip
-RUN rm packer_1.3.5_linux_amd64.zip
+RUN wget -q https://releases.hashicorp.com/packer/1.6.5/packer_1.6.5_linux_amd64.zip
+RUN unzip packer_1.6.5_linux_amd64.zip
+RUN rm packer_1.6.5_linux_amd64.zip
 RUN mv packer /usr/local/bin
 RUN packer version
 

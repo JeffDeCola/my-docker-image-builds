@@ -64,12 +64,12 @@ _built with
   creates this
   [docker Image](https://hub.docker.com/r/jeffdecola/go-gcloud-packer)
 * This docker image has at least these versions
-  * ubuntu 18.04
-  * go 1.11
+  * ubuntu 20.04
+  * go 1.15.3
     * Installed package "google.golang.org/appengine"
-  * gcloud SDK 240.0.0
+  * gcloud SDK ???????????????????????????.0.0
     * Installed google app engine go extension component
-  * packer 1.3.5
+  * packer 1.6.5
 
 ## RUN CONTAINER & GET BASH SHELL
 
