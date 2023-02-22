@@ -1,7 +1,6 @@
 # compact-multi-stage-build-example
 
-[![Docker Pulls](https://badgen.net/docker/pulls/jeffdecola/my-docker-image-builds/compact-multi-stage-build-example?icon=docker&label=pulls)](https://hub.docker.com/r/jeffdecola/compact-multi-stage-build-example)
-[![Docker Pulls](https://badgen.net/docker/pulls/jeffdecola/my-docker-image-builds/linux/compact-multi-stage-build-example?icon=docker&label=pulls)](https://hub.docker.com/r/jeffdecola/compact-multi-stage-build-example)
+[![Docker Pulls](https://badgen.net/docker/pulls/jeffdecola/compact-multi-stage-build-example?icon=docker&label=pulls)](https://hub.docker.com/r/jeffdecola/compact-multi-stage-build-example)
 
 _A lite docker image built using a multi-stage build._
 
