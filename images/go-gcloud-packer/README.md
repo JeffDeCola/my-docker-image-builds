@@ -8,14 +8,14 @@ _An ubuntu 22.04 docker image containing go, gcloud SDK and packer._
 
 Table of Contents
 
-* [OVERVIEW](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/go-gcloud-packer#overview)
-* [BUILD AND PUSH TO DOCKERHUB](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/go-gcloud-packer#build-and-push-to-dockerhub)
-* [DEPLOY](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/go-gcloud-packer#deploy)
+* [OVERVIEW](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/go-gcloud-packer#overview)
+* [BUILD AND PUSH TO DOCKERHUB](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/go-gcloud-packer#build-and-push-to-dockerhub)
+* [DEPLOY](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/go-gcloud-packer#deploy)
 
 ## OVERVIEW
 
 * The
-[Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/go-gcloud-packer/Dockerfile)
+[Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/images/go-gcloud-packer/Dockerfile)
 creates this
 [docker Image](https://hub.docker.com/r/jeffdecola/go-gcloud-packer)
 * Size: ~4.13 GB
@@ -28,7 +28,7 @@ creates this
 
 ## BUILD AND PUSH TO DOCKERHUB
 
-[build-push.sh](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/go-gcloud-packer/build-push.sh)
+[build-push.sh](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/images/go-gcloud-packer/build-push.sh)
 contains,
 
 ```bash

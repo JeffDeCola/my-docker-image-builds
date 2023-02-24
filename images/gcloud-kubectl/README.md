@@ -9,14 +9,14 @@
 
 Table of Contents
 
-* [OVERVIEW](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/gcloud-kubectl#overview)
-* [BUILD AND PUSH TO DOCKERHUB](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/gcloud-kubectl#build-and-push-to-dockerhub)
-* [DEPLOY](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/gcloud-kubectl#deploy)
+* [OVERVIEW](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/gcloud-kubectl#overview)
+* [BUILD AND PUSH TO DOCKERHUB](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/gcloud-kubectl#build-and-push-to-dockerhub)
+* [DEPLOY](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/gcloud-kubectl#deploy)
 
 ## OVERVIEW
 
 * The
-[Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/gcloud-kubectl/Dockerfile)
+[Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/images/gcloud-kubectl/Dockerfile)
 creates this
 [docker Image](https://hub.docker.com/r/jeffdecola/gcloud-kubectl)
 * Size: ~3.1 GB
@@ -28,7 +28,7 @@ creates this
 
 ## BUILD AND PUSH TO DOCKERHUB
 
-[build-push.sh](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/gcloud-kubectl/build-push.sh)
+[build-push.sh](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/images/gcloud-kubectl/build-push.sh)
 contains,
 
 ```bash
