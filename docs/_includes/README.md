@@ -4,43 +4,44 @@
 # LINUX
 
 * [compact-multi-stage-build-example](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/compact-multi-stage-build-example)
-  * _A lite docker image built using a multi-stage build_
+  * _An example of a compact alpine docker image built using a multi-stage build._
   * This
   [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/compact-multi-stage-build-example/Dockerfile)
   creates this
   [docker Image](https://hub.docker.com/r/jeffdecola/compact-multi-stage-build-example)
   * Runs a simple hello program compiled using go
-  * Size: 12.9 MB
-  * This docker image contains the following, with these version or higher
-    * alpine 3.9.2
+  * Size: ~14 MB
+  * This docker image contains the following, with these versions or higher
+    * alpine 3.17.2
 
 * [gcloud-kubectl](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/gcloud-kubectl)
-  * _A docker image containing gcloud and kubectl_
+  * _An ubuntu 18.04 docker image containing gcloud (with kubectl component)
+  and kubectl_
   * The
     [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/gcloud-kubectl/Dockerfile)
     creates this
     [docker Image](https://hub.docker.com/r/jeffdecola/gcloud-kubectl)
-  * Size: 1.92 GB
-  * This docker image contains the following, with these version or higher
-    * ubuntu 18.04
-    * gcloud SDK 241.0.0
-      * Installed kubectl component
-    * kubectl 1.14
+  * Size: ~3.1 GB
+  * This docker image contains the following, with these versions or higher
+    * ubuntu 22.04
+    * gcloud SDK 419.0.0
+      * Installed kubectl component 1.24.10
+    * kubectl 1.24+
 
 * [go-gcloud-packer](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/go-gcloud-packer)
-  * _A docker image containing gcloud and packer_
+  * _An ubuntu 22.04 docker image containing go,
+    gcloud SDK (with google app engine go extension) and packer_
   * The
     [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/go-gcloud-packer/Dockerfile)
     creates this
     [docker Image](https://hub.docker.com/r/jeffdecola/go-gcloud-packer)
-  * Size: 542 MB
-  * This docker image contains the following, with these version or higher
+  * Size: ~????542 MB
+  * This docker image contains the following, with these versions or higher
     * ubuntu 18.04
     * go 1.15.3
-      * Installed package "google.golang.org/appengine"
-    * gcloud SDK 319.0.0
+    * gcloud SDK 419.0.0
       * Installed google app engine go extension component
-    * packer 1.6.5
+    * packer 1.8.6
 
 ## macOS
 
