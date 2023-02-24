@@ -40,7 +40,7 @@ Documentation and Reference
 ## IMAGES
 
 * [compact-multi-stage-build-example](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/images/compact-multi-stage-build-example)
-  * _An example of a compact alpine docker image built using a multi-stage build._
+  * _An example of a compact alpine docker image built using a multi-stage build_
   * This
   [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/images/compact-multi-stage-build-example/Dockerfile)
   creates this
