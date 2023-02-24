@@ -8,14 +8,14 @@ _An example of a compact alpine docker image built using a multi-stage build._
 
 Table of Contents
 
-* [OVERVIEW](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/compact-multi-stage-build-example#overview)
-* [BUILD AND PUSH TO DOCKERHUB](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/compact-multi-stage-build-example#build-and-push-to-dockerhub)
-* [DEPLOY](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/compact-multi-stage-build-example#deploy)
+* [OVERVIEW](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/compact-multi-stage-build-example#overview)
+* [BUILD AND PUSH TO DOCKERHUB](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/compact-multi-stage-build-example#build-and-push-to-dockerhub)
+* [DEPLOY](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/compact-multi-stage-build-example#deploy)
 
 ## OVERVIEW
 
 * This
-  [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/compact-multi-stage-build-example/Dockerfile)
+  [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/images/compact-multi-stage-build-example/Dockerfile)
   creates this
   [docker Image](https://hub.docker.com/r/jeffdecola/compact-multi-stage-build-example)
 * Runs a simple hello program compiled using go
@@ -25,7 +25,7 @@ Table of Contents
 
 ## BUILD AND PUSH TO DOCKERHUB
 
-[build-push.sh](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/compact-multi-stage-build-example/build-push.sh)
+[build-push.sh](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/images/compact-multi-stage-build-example/build-push.sh)
 contains,
 
 ```bash
