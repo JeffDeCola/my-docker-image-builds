@@ -17,7 +17,7 @@ else
 fi
 
 echo "Build your docker image from binary /bin/hello-go using /build-push/Dockerfile"
-docker build -t jeffdecola/go-gcloud-packer .
+DOCKER_BUILDKIT=0 docker build -t jeffdecola/go-gcloud-packer .
 echo " "
 
 echo "Assuming you are logged in, lets push your built docker image to DockerHub"

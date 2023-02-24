@@ -17,7 +17,7 @@ else
 fi
 
 echo "Build your docker image using /build-push/Dockerfile"
-docker build -t jeffdecola/compact-multi-stage-build-example .
+DOCKER_BUILDKIT=0 docker build -t jeffdecola/compact-multi-stage-build-example .
 echo " "
 
 echo "Assuming you are logged in, lets push your built docker image to DockerHub"
