@@ -16,9 +16,9 @@ Table of Contents
 ## OVERVIEW
 
 * The
-[Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/images/gcloud-kubectl/Dockerfile)
-creates this
-[docker Image](https://hub.docker.com/r/jeffdecola/gcloud-kubectl)
+  [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/images/gcloud-kubectl/Dockerfile)
+  creates this
+  [docker Image](https://hub.docker.com/r/jeffdecola/gcloud-kubectl)
 * Size: ~3.1 GB
 * This docker image contains the following, with these versions or higher
   * ubuntu 22.04
