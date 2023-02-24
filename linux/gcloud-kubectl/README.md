@@ -4,28 +4,29 @@
 [![MIT License](http://img.shields.io/:license-mit-blue.svg)](http://jeffdecola.mit-license.org)
 [![jeffdecola.com](https://img.shields.io/badge/website-jeffdecola.com-blue)](https://jeffdecola.com)
 
-_An ubuntu 18.04 docker image containing gcloud (with kubectl component) and kubectl._
+ _An ubuntu 22.04 docker image containing gcloud (with kubectl component)
+ and kubectl._
 
 Table of Contents
 
 * [OVERVIEW](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/gcloud-kubectl#overview)
-* [TO BUILD AND PUSH TO DOCKERHUB](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/gcloud-kubectl#to-build-and-push-to-dockerhub)
-* [TO DEPLOY](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/gcloud-kubectl#to-deploy)
+* [BUILD AND PUSH TO DOCKERHUB](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/gcloud-kubectl#build-and-push-to-dockerhub)
+* [DEPLOY](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/gcloud-kubectl#deploy)
 
 ## OVERVIEW
 
 * The
-  [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/gcloud-kubectl/Dockerfile)
-  creates this
-  [docker Image](https://hub.docker.com/r/jeffdecola/gcloud-kubectl)
-* Size: 1.92 GB
-* This docker image contains the following, with these version or higher
+[Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/gcloud-kubectl/Dockerfile)
+creates this
+[docker Image](https://hub.docker.com/r/jeffdecola/gcloud-kubectl)
+* Size: ~3.1 GB
+* This docker image contains the following, with these versions or higher
   * ubuntu 22.04
-  * gcloud SDK 241.0.0
-    * Installed kubectl component
-  * kubectl 1.14
+  * gcloud SDK 419.0.0
+    * Installed kubectl component 1.24.10
+  * kubectl 1.25
 
-## TO BUILD AND PUSH TO DOCKERHUB
+## BUILD AND PUSH TO DOCKERHUB
 
 [build-push.sh](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/gcloud-kubectl/build-push.sh)
 contains,
@@ -37,7 +38,7 @@ docker push jeffdecola/gcloud-kubectl
 
 Obviously, you will have to edit and create an account at dockerhub.
 
-## TO DEPLOY
+## DEPLOY
 
 To run on your machine, I suggest,
 
@@ -53,7 +54,6 @@ docker exec -i -t gcloud-kubectl /bin/bash
 lsb_release -a
 gcloud version
 gcloud components list --show-versions
-kubectl version
 ```
 
 To see the output,

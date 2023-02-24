@@ -57,7 +57,7 @@ Documentation and Reference
     * alpine 3.17.2
 
 * [gcloud-kubectl](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/gcloud-kubectl)
-  * _An ubuntu 18.04 docker image containing gcloud (with kubectl component)
+  * _An ubuntu 22.04 docker image containing gcloud (with kubectl component)
   and kubectl_
   * The
     [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/gcloud-kubectl/Dockerfile)
@@ -68,21 +68,20 @@ Documentation and Reference
     * ubuntu 22.04
     * gcloud SDK 419.0.0
       * Installed kubectl component 1.24.10
-    * kubectl 1.24+
+    * kubectl 1.25
 
 * [go-gcloud-packer](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/go-gcloud-packer)
-  * _An ubuntu 22.04 docker image containing go,
-    gcloud SDK (with google app engine go extension) and packer_
+  * _An ubuntu 22.04 docker image containing go, gcloud SDK and packer_
   * The
     [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/go-gcloud-packer/Dockerfile)
     creates this
     [docker Image](https://hub.docker.com/r/jeffdecola/go-gcloud-packer)
-  * Size: ~????542 MB
+  * Size: ~4.13 GB
   * This docker image contains the following, with these versions or higher
-    * ubuntu 18.04
-    * go 1.15.3
+    * ubuntu 22.04
+    * go 1.20.1
     * gcloud SDK 419.0.0
-      * Installed google app engine go extension component
+      * Installed app-engine-go component 1.9.72
     * packer 1.8.6
 
 ## macOS

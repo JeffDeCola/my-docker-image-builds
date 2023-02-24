@@ -58,7 +58,7 @@ RUN packer version
 # INSTALL GCLOUD COMPONENTS (kubectl)
 # RUN apt-get -y install kubectl
 
-# INSTALL GCLOPUD CLI (VIA DIRECT DOWNLOAD)
+# INSTALL GCLOUD CLI (VIA DIRECT DOWNLOAD)
 RUN curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-419.0.0-linux-x86_64.tar.gz && \
     tar -xf google-cloud-cli-419.0.0-linux-x86_64.tar.gz && \
     rm google-cloud-cli-419.0.0-linux-x86_64.tar.gz && \

@@ -4,31 +4,29 @@
 [![MIT License](http://img.shields.io/:license-mit-blue.svg)](http://jeffdecola.mit-license.org)
 [![jeffdecola.com](https://img.shields.io/badge/website-jeffdecola.com-blue)](https://jeffdecola.com)
 
-_An ubuntu 22.04 docker image containing go,
-gcloud SDK (with google app engine go extension) and packer._
+_An ubuntu 22.04 docker image containing go, gcloud SDK and packer._
 
 Table of Contents
 
 * [OVERVIEW](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/go-gcloud-packer#overview)
-* [TO BUILD AND PUSH TO DOCKERHUB](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/go-gcloud-packer#to-build-and-push-to-dockerhub)
-* [TO DEPLOY](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/go-gcloud-packer#to-deploy)
+* [BUILD AND PUSH TO DOCKERHUB](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/go-gcloud-packer#build-and-push-to-dockerhub)
+* [DEPLOY](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/go-gcloud-packer#deploy)
 
 ## OVERVIEW
 
 * The
-  [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/go-gcloud-packer/Dockerfile)
-  creates this
-  [docker Image](https://hub.docker.com/r/jeffdecola/go-gcloud-packer)
-* Size: 542 MB
-* This docker image contains the following, with these version or higher
-  * ubuntu 18.04
-  * go 1.15.3
-    * Installed package "google.golang.org/appengine"
-  * gcloud SDK 319.0.0
-    * Installed google app engine go extension component
-  * packer 1.6.5
+[Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/go-gcloud-packer/Dockerfile)
+creates this
+[docker Image](https://hub.docker.com/r/jeffdecola/go-gcloud-packer)
+* Size: ~4.13 GB
+* This docker image contains the following, with these versions or higher
+* ubuntu 22.04
+  * go 1.20.1
+  * gcloud SDK 419.0.0
+    * Installed app-engine-go component 1.9.72
+  * packer 1.8.6
 
-## TO BUILD AND PUSH TO DOCKERHUB
+## BUILD AND PUSH TO DOCKERHUB
 
 [build-push.sh](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/go-gcloud-packer/build-push.sh)
 contains,
@@ -40,7 +38,7 @@ docker push jeffdecola/go-gcloud-packer
 
 Obviously, you will have to edit and create an account at dockerhub.
 
-## TO DEPLOY
+## DEPLOY
 
 To run on your machine, I suggest,
 
@@ -53,11 +51,9 @@ To bash shell into the container and check versions,
 
 ```bash
 docker exec -i -t go-gcloud-packer /bin/bash
-??????????????????
 lsb_release -a
 gcloud version
 gcloud components list --show-versions
-kubectl version
 ```
 
 To see the output,
