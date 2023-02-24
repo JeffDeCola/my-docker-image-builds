@@ -1,4 +1,4 @@
-//  hello.go
+//  main.go
 
 package main
 
