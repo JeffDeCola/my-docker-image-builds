@@ -9,21 +9,21 @@ _An example of a compact alpine docker image built using a multi-stage build._
 Table of Contents
 
 * [OVERVIEW](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/compact-multi-stage-build-example#overview)
-* [TO BUILD AND PUSH TO DOCKERHUB](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/compact-multi-stage-build-example#to-build-and-push-to-dockerhub)
-* [TO DEPLOY](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/compact-multi-stage-build-example#to-deploy)
+* [BUILD AND PUSH TO DOCKERHUB](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/compact-multi-stage-build-example#build-and-push-to-dockerhub)
+* [DEPLOY](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/linux/compact-multi-stage-build-example#deploy)
 
 ## OVERVIEW
 
 * This
-[Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/compact-multi-stage-build-example/Dockerfile)
-creates this
-[docker Image](https://hub.docker.com/r/jeffdecola/compact-multi-stage-build-example)
+  [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/compact-multi-stage-build-example/Dockerfile)
+  creates this
+  [docker Image](https://hub.docker.com/r/jeffdecola/compact-multi-stage-build-example)
 * Runs a simple hello program compiled using go
-* Size: ~13 MB
-* This docker image contains the following, with these version or higher
+* Size: ~14 MB
+* This docker image contains the following, with these versions or higher
   * alpine 3.17.2
 
-## TO BUILD AND PUSH TO DOCKERHUB
+## BUILD AND PUSH TO DOCKERHUB
 
 [build-push.sh](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/linux/compact-multi-stage-build-example/build-push.sh)
 contains,
@@ -35,7 +35,7 @@ docker push jeffdecola/compact-multi-stage-build-example
 
 Obviously, you will have to edit and create an account at dockerhub.
 
-## TO DEPLOY
+## DEPLOY
 
 To run on your machine, I suggest,
 
