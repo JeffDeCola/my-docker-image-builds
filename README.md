@@ -33,6 +33,8 @@ Documentation and Reference
   [docker cheat sheet](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/operations/orchestration/builds-deployment-containers/docker-cheat-sheet)
 * My docker images at
   [DockerHub](https://hub.docker.com/u/jeffdecola/)
+* An illustration of
+  [vagrant, docker and packer](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/operations/orchestration/builds-deployment-containers/docker-cheat-sheet#vagrant-docker-and-packer)
 * This repos
   [github webpage](https://jeffdecola.github.io/my-docker-image-builds/)
   _built with
