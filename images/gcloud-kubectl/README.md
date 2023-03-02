@@ -4,8 +4,9 @@
 [![MIT License](http://img.shields.io/:license-mit-blue.svg)](http://jeffdecola.mit-license.org)
 [![jeffdecola.com](https://img.shields.io/badge/website-jeffdecola.com-blue)](https://jeffdecola.com)
 
- _An ubuntu 22.04 docker image containing gcloud (with kubectl component)
- and kubectl._
+_Using docker to build a docker image
+containing the Ubuntu 22.04 OS
+(with gcloud and kubectl)._
 
 Table of Contents
 
@@ -15,13 +16,17 @@ Table of Contents
 
 ## OVERVIEW
 
-* The
-  [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/images/gcloud-kubectl/Dockerfile)
-  creates this
-  [docker Image](https://hub.docker.com/r/jeffdecola/gcloud-kubectl)
-* Size: ~3.1 GB
-* This docker image contains the following, with these versions or higher
-  * ubuntu 22.04
+* _Using docker to build a docker image
+  containing the Ubuntu 22.04 OS
+  (with gcloud and kubectl)_
+* [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/images/gcloud-kubectl/Dockerfile)
+* [Dockerhub image](https://hub.docker.com/r/jeffdecola/gcloud-kubectl)
+* Size: ~3.1GB
+* Source Image: docker
+  * **"ubuntu:22.04"** for docker on linux
+* Custom Image: docker
+  * ubuntu 22.04 for docker on linux
+* Contains:
   * gcloud SDK 419.0.0
     * Installed kubectl component 1.24.10
   * kubectl 1.25

@@ -4,7 +4,8 @@
 [![MIT License](http://img.shields.io/:license-mit-blue.svg)](http://jeffdecola.mit-license.org)
 [![jeffdecola.com](https://img.shields.io/badge/website-jeffdecola.com-blue)](https://jeffdecola.com)
 
-_An example of a compact alpine docker image built using a multi-stage build._
+_Using docker to multi-stage build a docker image
+containing the alpine OS._
 
 Table of Contents
 
@@ -14,14 +15,17 @@ Table of Contents
 
 ## OVERVIEW
 
-* This
-  [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/images/compact-multi-stage-build-example/Dockerfile)
-  creates this
-  [docker Image](https://hub.docker.com/r/jeffdecola/compact-multi-stage-build-example)
-* Runs a simple hello program compiled using go
-* Size: ~14 MB
-* This docker image contains the following, with these versions or higher
-  * alpine 3.17.2
+* _Using docker to multi-stage build a docker image
+  containing the alpine OS_
+* [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/images/compact-multi-stage-build-example/Dockerfile)
+* [Dockerhub image](https://hub.docker.com/r/jeffdecola/compact-multi-stage-build-example)
+* Size: ~14MB
+* Source Image: docker
+  * **"golang:alpine"** for docker on linux
+* Custom Image: docker
+  * alpine 3.17.2 for docker on linux
+* Contains:
+  * hello program compiled using go
 
 ## BUILD AND PUSH TO DOCKERHUB
 
