@@ -27,20 +27,36 @@ docker images
 docker ps
 ```
 
+Table of Contents
+
+* [OVERVIEW](https://github.com/JeffDeCola/my-docker-image-builds#overview)
+* [DOCKER IMAGES](https://github.com/JeffDeCola/my-docker-image-builds#docker-images)
+
 Documentation and Reference
 
 * My
   [docker cheat sheet](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/operations/orchestration/builds-deployment-containers/docker-cheat-sheet)
 * My docker images at
   [DockerHub](https://hub.docker.com/u/jeffdecola/)
-* An illustration of
-  [vagrant, docker and packer](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/operations/orchestration/builds-deployment-containers/docker-cheat-sheet#vagrant-docker-and-packer)
+* An illustration of how
+  [vagrant, docker and packer](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/operations/orchestration/builds-deployment-containers/packer-cheat-sheet#vagrant-docker-and-packer)
+  build and deploy images
+* My
+  [clean-docker.sh](https://github.com/JeffDeCola/my-linux-shell-scripts/tree/master/software/clean-docker)
+  linux script
 * This repos
   [github webpage](https://jeffdecola.github.io/my-docker-image-builds/)
   _built with
   [concourse](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/ci-README.md)_
 
-## IMAGES
+## OVERVIEW
+
+Docker is useful for the automated **BUILD** of a docker custom image.
+Docker is also useful for the automated **DEPLOY** of a docker custom image
+in an loosely isolated environment. This is useful for easily launching
+an App/Service.
+
+## DOCKER IMAGES
 
 * [compact-multi-stage-build-example](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/images/compact-multi-stage-build-example)
 

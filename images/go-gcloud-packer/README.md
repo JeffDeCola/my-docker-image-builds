@@ -14,7 +14,7 @@ Table of Contents
 * [BUILD AND PUSH TO DOCKERHUB](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/go-gcloud-packer#build-and-push-to-dockerhub)
 * [DEPLOY](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/go-gcloud-packer#deploy)
 
-## OVERVIEW
+## DOCKERFILE
 
 * _Using docker to build a docker image
   containing the ubuntu 22.04 OS
@@ -32,7 +32,7 @@ Table of Contents
     * Installed app-engine-go component 1.9.72
   * packer 1.8.6
 
-## BUILD AND PUSH TO DOCKERHUB
+## BUILD IMAGE AND PUSH TO DOCKERHUB
 
 [build-push.sh](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/images/go-gcloud-packer/build-push.sh)
 contains,
@@ -44,7 +44,7 @@ docker push jeffdecola/go-gcloud-packer
 
 Obviously, you will have to edit and create an account at dockerhub.
 
-## DEPLOY
+## DEPLOY IMAGE
 
 To run on your machine, I suggest,
 

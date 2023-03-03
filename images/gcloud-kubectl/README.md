@@ -14,7 +14,7 @@ Table of Contents
 * [BUILD AND PUSH TO DOCKERHUB](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/gcloud-kubectl#build-and-push-to-dockerhub)
 * [DEPLOY](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/gcloud-kubectl#deploy)
 
-## OVERVIEW
+## DOCKERFILE
 
 * _Using docker to build a docker image
   containing the Ubuntu 22.04 OS
@@ -31,7 +31,7 @@ Table of Contents
     * Installed kubectl component 1.24.10
   * kubectl 1.25
 
-## BUILD AND PUSH TO DOCKERHUB
+## BUILD IMAGE AND PUSH TO DOCKERHUB
 
 [build-push.sh](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/images/gcloud-kubectl/build-push.sh)
 contains,
@@ -43,7 +43,7 @@ docker push jeffdecola/gcloud-kubectl
 
 Obviously, you will have to edit and create an account at dockerhub.
 
-## DEPLOY
+## DEPLOY IMAGE
 
 To run on your machine, I suggest,
 

@@ -13,7 +13,7 @@ Table of Contents
 * [BUILD AND PUSH TO DOCKERHUB](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/compact-multi-stage-build-example#build-and-push-to-dockerhub)
 * [DEPLOY](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/compact-multi-stage-build-example#deploy)
 
-## OVERVIEW
+## DOCKERFILE
 
 * _Using docker to multi-stage build a docker image
   containing the alpine OS_
@@ -27,7 +27,7 @@ Table of Contents
 * Contains:
   * hello program compiled using go
 
-## BUILD AND PUSH TO DOCKERHUB
+## BUILD IMAGE AND PUSH TO DOCKERHUB
 
 [build-push.sh](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/images/compact-multi-stage-build-example/build-push.sh)
 contains,
@@ -39,7 +39,7 @@ docker push jeffdecola/compact-multi-stage-build-example
 
 Obviously, you will have to edit and create an account at dockerhub.
 
-## DEPLOY
+## DEPLOY IMAGE
 
 To run on your machine, I suggest,
 
