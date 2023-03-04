@@ -10,9 +10,9 @@ containing the Ubuntu 22.04 OS
 
 Table of Contents
 
-* [OVERVIEW](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/gcloud-kubectl#overview)
-* [BUILD AND PUSH TO DOCKERHUB](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/gcloud-kubectl#build-and-push-to-dockerhub)
-* [DEPLOY](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/gcloud-kubectl#deploy)
+* [DOCKERFILE](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/gcloud-kubectl#dockerfile)
+* [BUILD IMAGE AND PUSH TO DOCKERHUB](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/gcloud-kubectl#build-image-and-push-to-dockerhub)
+* [DEPLOY IMAGE](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/gcloud-kubectl#deploy-image)
 
 ## DOCKERFILE
 
