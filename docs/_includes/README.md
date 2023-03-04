@@ -8,6 +8,8 @@ Docker is also useful for the automated **DEPLOY** of a docker custom image
 in an loosely isolated environment. This is useful for easily launching
 an App/Service.
 
+![IMAGE - docker-overview - IMAGE](pics/docker-overview.jpg)
+
 ## DOCKER IMAGES
 
 * [compact-multi-stage-build-example](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/images/compact-multi-stage-build-example)
