@@ -10,9 +10,9 @@ containing the ubuntu 22.04 OS
 
 Table of Contents
 
-* [OVERVIEW](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/go-gcloud-packer#overview)
-* [BUILD AND PUSH TO DOCKERHUB](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/go-gcloud-packer#build-and-push-to-dockerhub)
-* [DEPLOY](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/go-gcloud-packer#deploy)
+* [DOCKERFILE](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/go-gcloud-packer#dockerfile)
+* [BUILD IMAGE AND PUSH TO DOCKERHUB](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/go-gcloud-packer#build-image-and-push-to-dockerhub)
+* [DEPLOY IMAGE](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/go-gcloud-packer#deploy-image)
 
 ## DOCKERFILE
 

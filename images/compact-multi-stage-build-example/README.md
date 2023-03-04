@@ -9,9 +9,9 @@ containing the alpine OS._
 
 Table of Contents
 
-* [OVERVIEW](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/compact-multi-stage-build-example#overview)
-* [BUILD AND PUSH TO DOCKERHUB](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/compact-multi-stage-build-example#build-and-push-to-dockerhub)
-* [DEPLOY](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/compact-multi-stage-build-example#deploy)
+* [DOCKERFILE](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/compact-multi-stage-build-example#dockerfile)
+* [BUILD IMAGE AND PUSH TO DOCKERHUB](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/compact-multi-stage-build-example#build-image-and-push-to-dockerhub)
+* [DEPLOY IMAGE](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/compact-multi-stage-build-example#deploy-image)
 
 ## DOCKERFILE
 
