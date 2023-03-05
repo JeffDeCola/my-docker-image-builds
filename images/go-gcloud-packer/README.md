@@ -16,9 +16,6 @@ Table of Contents
 
 ## DOCKERFILE
 
-* _Using docker to build a docker image
-  containing the ubuntu 22.04 OS
-  (with go, gcloud and packer)_
 * [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/images/go-gcloud-packer/Dockerfile)
 * [Dockerhub image](https://hub.docker.com/r/jeffdecola/go-gcloud-packer)
 * Size: ~4.13GB
