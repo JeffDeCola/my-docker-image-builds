@@ -8,7 +8,7 @@
 
 FROM golang:alpine AS builder
 
-# Install git.
+# INSTALL GIT
 # Git is required for fetching the dependencies.
 RUN apk update && apk add --no-cache git
 
@@ -20,10 +20,10 @@ COPY . .
 RUN ls -lat /my-code
 RUN go version
 
-# Fetch dependencies using go get.
+# FETCH GO DEPENDENCIES
 RUN go get -d -v
 
-# Build the binary.
+# BUILD GO BINARY
 RUN go build -o /go/bin/hello main.go
 
 ###############################
@@ -32,19 +32,19 @@ RUN go build -o /go/bin/hello main.go
 
 FROM alpine
 
-# Add my name to it
+# LABEL REPO
 LABEL maintainer="Jeff DeCola https://github.com/JeffDeCola/my-docker-image-builds"
 
 # CHECK ALPINE VERSION
 RUN cat /etc/alpine-release
 
-# Put the binary from previous build into /app
+# PUT GO BINARY IN /app
 RUN mkdir /app
 COPY --from=builder /go/bin/hello /app/hello
 WORKDIR /app
 
-# Add the ability to /bin/bash in alpine
+# ADD ABILITY TO USE /bin/bash IN alpine
 RUN apk add --update bash
 
-# Run the binary.
+# RUN GO BINARY
 ENTRYPOINT ["/app/hello"]
