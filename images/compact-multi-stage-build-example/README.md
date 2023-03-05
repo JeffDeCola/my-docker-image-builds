@@ -15,8 +15,6 @@ Table of Contents
 
 ## DOCKERFILE
 
-* _Using docker to multi-stage build a docker image
-  containing the alpine OS_
 * [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/images/compact-multi-stage-build-example/Dockerfile)
 * [Dockerhub image](https://hub.docker.com/r/jeffdecola/compact-multi-stage-build-example)
 * Size: ~14MB

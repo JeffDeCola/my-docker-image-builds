@@ -16,9 +16,6 @@ Table of Contents
 
 ## DOCKERFILE
 
-* _Using docker to build a docker image
-  containing the Ubuntu 22.04 OS
-  (with gcloud and kubectl)_
 * [Dockerfile](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/images/gcloud-kubectl/Dockerfile)
 * [Dockerhub image](https://hub.docker.com/r/jeffdecola/gcloud-kubectl)
 * Size: ~3.1GB
