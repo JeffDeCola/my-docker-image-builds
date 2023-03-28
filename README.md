@@ -42,7 +42,7 @@ Documentation and Reference
   [vagrant, docker and packer](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/operations/orchestration/builds-deployment-containers/packer-cheat-sheet#vagrant-docker-and-packer)
   build and deploy images
 * My
-  [clean-docker.sh](https://github.com/JeffDeCola/my-linux-shell-scripts/tree/master/software/clean-docker)
+  [docker-remove-old-images.sh](https://github.com/JeffDeCola/my-linux-shell-scripts/tree/master/software/docker-remove-old-images)
   linux script
 * This repos
   [github webpage](https://jeffdecola.github.io/my-docker-image-builds/)
