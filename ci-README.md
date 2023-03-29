@@ -10,7 +10,7 @@ I use concourse to automate,
 
 The concourse
 [pipeline.yml](https://github.com/JeffDeCola/my-docker-image-builds/blob/master/ci/pipeline.yml)
-shows the entire ci flow. Visually, it looks like,
+shows the entire ci flow,
 
 ![IMAGE - my-docker-image-builds concourse ci pipeline - IMAGE](docs/pics/my-docker-image-builds-pipeline.jpg)
 
