@@ -7,7 +7,7 @@
 
 _A place to keep my docker image builds._
 
-tl;dr,
+tl;dr
 
 ```bash
 ## BUILD DOCKER IMAGE
