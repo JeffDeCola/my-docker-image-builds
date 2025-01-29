@@ -4,6 +4,8 @@
 [![MIT License](https://img.shields.io/:license-mit-blue.svg)](https://jeffdecola.mit-license.org)
 [![jeffdecola.com](https://img.shields.io/badge/website-jeffdecola.com-blue)](https://jeffdecola.com)
 
+[![DockerHub Badge](http://dockeri.co/image/jeffdecola/compact-multi-stage-build-example)](https://hub.docker.com/r/jeffdecola/compact-multi-stage-build-example/)
+
 _Using docker to multi-stage build a docker image
 containing the alpine OS._
 
