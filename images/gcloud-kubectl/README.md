@@ -1,8 +1,8 @@
 # gcloud-kubectl
 
-[![Docker Pulls](https://badgen.net/docker/pulls/jeffdecola/gcloud-kubectl?icon=docker&label=pulls)](https://hub.docker.com/r/jeffdecola/gcloud-kubectl)
-[![MIT License](https://img.shields.io/:license-mit-blue.svg)](https://jeffdecola.mit-license.org)
 [![jeffdecola.com](https://img.shields.io/badge/website-jeffdecola.com-blue)](https://jeffdecola.com)
+[![MIT License](https://img.shields.io/:license-mit-blue.svg)](https://jeffdecola.mit-license.org)
+[![Docker Pulls](https://badgen.net/docker/pulls/jeffdecola/gcloud-kubectl?icon=docker&label=pulls)](https://hub.docker.com/r/jeffdecola/gcloud-kubectl)
 
 [![DockerHub Badge](http://dockeri.co/image/jeffdecola/gcloud-kubectl)](https://hub.docker.com/r/jeffdecola/gcloud-kubectl/)
 
@@ -15,6 +15,17 @@ Table of Contents
 * [DOCKERFILE](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/gcloud-kubectl#dockerfile)
 * [BUILD IMAGE AND PUSH TO DOCKERHUB](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/gcloud-kubectl#build-image-and-push-to-dockerhub)
 * [DEPLOY IMAGE](https://github.com/JeffDeCola/my-docker-image-builds/tree/master/images/gcloud-kubectl#deploy-image)
+
+Documentation and Reference
+
+* [docker](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/operations/orchestration/builds-deployment-containers/docker-cheat-sheet)
+* My docker images at
+  [DockerHub](https://hub.docker.com/u/jeffdecola/)
+* An illustration of how
+  [vagrant, docker and packer](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/operations/orchestration/builds-deployment-containers/packer-cheat-sheet#vagrant-docker-and-packer)
+  build and deploy images
+* My
+  [docker linux scripts](https://github.com/JeffDeCola/my-linux-shell-scripts/tree/master?tab=readme-ov-file#docker)
 
 ## DOCKERFILE
 
