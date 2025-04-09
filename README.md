@@ -1,9 +1,8 @@
 # MY DOCKER IMAGE BUILDS
 
-[![codeclimate Issue Count](https://codeclimate.com/github/JeffDeCola/my-docker-image-builds/badges/issue_count.svg)](https://codeclimate.com/github/JeffDeCola/my-docker-image-builds/issues)
+[![jeffdecola.com](https://img.shields.io/badge/website-jeffdecola.com-blue)](https://jeffdecola.com)
 [![MIT License](https://img.shields.io/:license-mit-blue.svg)](https://jeffdecola.mit-license.org)
 [![hub.docker.com/u/jeffdecola/](https://img.shields.io/badge/website-dockerhub-blue)](https://hub.docker.com/u/jeffdecola/)
-[![jeffdecola.com](https://img.shields.io/badge/website-jeffdecola.com-blue)](https://jeffdecola.com)
 
 _A place to keep my docker image builds._
 
@@ -34,16 +33,14 @@ Table of Contents
 
 Documentation and Reference
 
-* My
-  [docker cheat sheet](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/operations/orchestration/builds-deployment-containers/docker-cheat-sheet)
+* [docker](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/operations/orchestration/builds-deployment-containers/docker-cheat-sheet)
 * My docker images at
   [DockerHub](https://hub.docker.com/u/jeffdecola/)
 * An illustration of how
   [vagrant, docker and packer](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/operations/orchestration/builds-deployment-containers/packer-cheat-sheet#vagrant-docker-and-packer)
   build and deploy images
 * My
-  [docker-remove-old-images.sh](https://github.com/JeffDeCola/my-linux-shell-scripts/tree/master/software/docker-remove-old-images)
-  linux script
+  [docker linux scripts](https://github.com/JeffDeCola/my-linux-shell-scripts/tree/master?tab=readme-ov-file#docker)
 * This repos
   [github webpage](https://jeffdecola.github.io/my-docker-image-builds/)
   _built with
@@ -56,7 +53,7 @@ Docker is also useful for the automated **DEPLOY** of a docker custom image
 in an loosely isolated environment. This is useful for easily launching
 an App/Service.
 
-![IMAGE - docker-overview - IMAGE](docs/pics/docker-overview.jpg)
+![IMAGE - docker-overview - IMAGE](docs/pics/docker-overview.svg)
 
 ## DOCKER IMAGES
 
